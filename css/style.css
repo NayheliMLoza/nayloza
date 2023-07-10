@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kadwa&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/fbody.svg);
+}
+
+p, h3{
+    font-family: 'Kadwa', serif;
+}
+
+/*header*/
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: start;
+    background-image: url(../img/fondo6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 52rem;
+}
+
+/*menu*/
+
+h1{
+    font-size: 2.8rem;
+    padding-left: 20px;
+    padding-top: 15px;
+    font-family: 'Rampart One', cursive;
+}
+
+.menu{ 
+    display: flex;
+    list-style: none;
+    padding-top: 20px;
+}
+
+.menu li{
+    padding-right: 50px;
+    font-size: 1.5rem;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Kadwa', serif;
+}
+
+.activo{
+    background-color: #fccae1;
+}
+
+.menu li a:hover{
+    height: 2px;
+    background: #fccae1;
+    scale: 1;
+}
+
+/*subtitulos*/
+
+h2{
+    text-align: center;
+    font-size: 3rem;
+    padding: 50px;
+    font-family: 'Rampart One', cursive;
+}
+
+/*section nuestra escuela*/
+
+.tarjetas{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+
+.tarjet{
+    width: 340px;
+    height: 530px;
+    background-color: #fccae1;
+    border: solid #000000 2px;
+}
+
+.tarjetas img{
+    width: 100%;
+    height: 320px;
+}
+
+.tarjet h3{
+    text-align: center;
+    padding: 5px;
+}
+
+.tarjet p{
+    text-align: justify;
+    padding:10px 15px;
+}
+
+/*section por que bailamos*/
+
+.bailarina{
+    width: 100%;
+    background-color: #fccae1;
+    margin: 40px 0 30px 0;
+    height: 45rem;
+    border: solid #000000 2px;
+}
+
+.mensaje{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.men-text{ width: 35em;
+    font-size: 2rem;
+    width: 600px;
+}
+
+.men-text p{
+    padding-top: 50px;
+}
+
+.men-img img{
+    width: 800px;
+}
+
+/*section bailamos */
+
+.ridmo{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+.ridmo img{
+    width: 300px;
+}
+
+/*footer*/
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px 0;
+    background-color: #000000;
+    color: #b6b4b4;
+}
+
+.footer h3{
+    font-size: 1.5rem;
+    padding-top: 25px;
+    text-decoration: underline;
+}
+
+.footer li{
+    list-style: none;
+    padding-top:15px ;
+}
+
+.redes ul{
+    display: flex;
+    font-size: 2rem;
+}
+
+.redes li a{
+    padding-right: 20px;
+}
+
+/*copy*/
+
+.copy{
+    background-color: #535252;
+    clear: both;
+    color: #b6b4b4;
+    text-align: center;
+}

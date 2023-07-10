@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kadwa&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/fbody.svg);
+}
+
+p, h3{
+    font-family: 'Kadwa', serif;
+}
+
+/*header*/
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: start;
+    background-image: url(../img/fondo4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 52rem;
+}
+
+/*menu*/
+
+h1{
+    font-size: 2.8rem;
+    padding: 15px 20px;
+    font-family: 'Rampart One', cursive;
+    background-color: rgb(255, 255, 255, 0.6) ;
+}
+
+.menu{ 
+    display: flex;
+    list-style: none;
+    padding-top: 20px;
+}
+
+.menu li{
+    padding-right: 50px;
+    font-size: 1.5rem;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Kadwa', serif;
+}
+
+.activo{
+    background-color: black;
+}
+
+.menu li a:hover{
+    height: 2px;
+    background: black;
+    scale: 1;
+}
+
+/*subtitulos*/
+
+h2{
+    text-align: center;
+    font-size: 3rem;
+    padding: 50px;
+    font-family: 'Rampart One', cursive;
+}
+
+/*section escuela*/
+
+.escuela{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 70px;
+}
+
+.escuela p{
+    width: 550px;
+    font-size: 1.8rem;
+    padding: 30px 20px;
+}
+
+.escuela img{
+    width: 800px;
+}
+
+/*section escuela2*/
+
+.escuela2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #fccae1;
+    padding: 70px 0;
+    border: solid #000000 2px;
+}
+
+.t-esc{
+    background-color: #fccae1 ;
+    width: 400px;
+    height: 520px;
+    text-align: center;
+    border: solid #000000 2px;
+}
+
+.t-esc img{
+    width: 396px;
+}
+
+.t-esc p{
+    padding: 10px;
+}
+
+/*section t.prof*/
+
+.t-prof{
+    width: 85%;
+    margin: auto;
+}
+
+.t-prof p{
+    font-size: 1.8rem;
+    text-align: center;
+    padding-bottom: 180px;
+}
+
+/*tarjetas*/
+
+.tar-prof{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.prof{
+    width: 380px;
+    height: 320px;
+    background-color: #fccae1;
+    text-align: center;
+    position: relative;
+}
+
+.prof p{
+    font-size: 1.5rem;
+}
+
+.prof h3{
+    font-size: 1.8rem;
+    padding-top: 200px;
+}
+
+/* fotos de tarjetas*/
+
+.f-prof{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    margin: -26rem auto 220px;
+}
+
+.f-prof img{
+    width: 300px;
+    border-radius: 60%;
+}
+
+/*footer*/
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px 0;
+    background-color: #000000;
+    color: #b6b4b4;
+}
+
+.footer h3{
+    font-size: 1.5rem;
+    padding-top: 25px;
+    text-decoration: underline;
+}
+
+.footer li{
+    list-style: none;
+    padding-top:15px ;
+}
+
+.redes ul{
+    display: flex;
+    font-size: 2rem;
+}
+
+.redes li a{
+    padding-right: 20px;
+}
+
+/*copy*/
+
+.copy{
+    background-color: #535252;
+    clear: both;
+    color: #b6b4b4;
+    text-align: center;
+}
